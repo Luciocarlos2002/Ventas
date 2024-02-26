@@ -1,25 +1,15 @@
 package lucio.prueba;
 
-import static lucio.prueba.constantes.Constantes.TRES;
-import static lucio.prueba.constantes.Constantes.UNO;
-
 import lucio.prueba.constantes.Constantes;
 
-/**
- * Prueba.
- *
- * @author Lucio Huaman.
- */
-public class Main2 {
+import static lucio.prueba.constantes.Constantes.DOS;
+import static lucio.prueba.constantes.Constantes.UNO;
 
-    /**
-     * Mostrar mensaje 3 veces.
-     */
+public class Main2 {
     public static void main(String[] args) {
         System.out.print(Constantes.MENSAJE);
 
-        for (int i = UNO; i <= TRES; i++) {
-
+        for (int i = UNO; i <= DOS; i++) {
             System.out.println(Constantes.MENSAJE_2 + i);
         }
     }
